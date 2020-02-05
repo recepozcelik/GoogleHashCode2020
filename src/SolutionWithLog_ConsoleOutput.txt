@@ -1,0 +1,169 @@
+targetMaxNumber: 17
+valueList: 2 5 6 8 
+
+startIndex: 3
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 8
+currentIndexList: [3]
+currentValueList: [8]
+--- ---- ---
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 14
+currentIndexList: [3, 2]
+currentValueList: [8, 6]
+--- ---- ---
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 16
+currentIndexList: [3, 2, 0]
+currentValueList: [8, 6, 2]
+--- ---- ---
+!!! The most optimal solution is found so far !!!
+maxSum: 16
+maxSumIndexList: [3, 2, 0]
+maxSumValueList: [8, 6, 2]
+!!! !!!! !!!
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 0
+remove last item in currentIndexList.
+currentIndexList: [3, 2]
+currentValueList: [8, 6]
+&&& &&&& &&&
+startIndex: -1
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 2
+remove last item in currentIndexList.
+currentIndexList: [3]
+currentValueList: [8]
+&&& &&&& &&&
+startIndex: 1
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 13
+currentIndexList: [3, 1]
+currentValueList: [8, 5]
+--- ---- ---
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 15
+currentIndexList: [3, 1, 0]
+currentValueList: [8, 5, 2]
+--- ---- ---
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 0
+remove last item in currentIndexList.
+currentIndexList: [3, 1]
+currentValueList: [8, 5]
+&&& &&&& &&&
+startIndex: -1
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 1
+remove last item in currentIndexList.
+currentIndexList: [3]
+currentValueList: [8]
+&&& &&&& &&&
+startIndex: 0
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 10
+currentIndexList: [3, 0]
+currentValueList: [8, 2]
+--- ---- ---
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 0
+remove last item in currentIndexList.
+currentIndexList: [3]
+currentValueList: [8]
+&&& &&&& &&&
+startIndex: -1
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 3
+remove last item in currentIndexList.
+currentIndexList: []
+currentValueList: []
+&&& &&&& &&&
+startIndex: 2
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 6
+currentIndexList: [2]
+currentValueList: [6]
+--- ---- ---
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 11
+currentIndexList: [2, 1]
+currentValueList: [6, 5]
+--- ---- ---
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 13
+currentIndexList: [2, 1, 0]
+currentValueList: [6, 5, 2]
+--- ---- ---
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 0
+remove last item in currentIndexList.
+currentIndexList: [2, 1]
+currentValueList: [6, 5]
+&&& &&&& &&&
+startIndex: -1
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 1
+remove last item in currentIndexList.
+currentIndexList: [2]
+currentValueList: [6]
+&&& &&&& &&&
+startIndex: 0
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 8
+currentIndexList: [2, 0]
+currentValueList: [6, 2]
+--- ---- ---
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 0
+remove last item in currentIndexList.
+currentIndexList: [2]
+currentValueList: [6]
+&&& &&&& &&&
+startIndex: -1
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 2
+remove last item in currentIndexList.
+currentIndexList: []
+currentValueList: []
+&&& &&&& &&&
+startIndex: 1
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 5
+currentIndexList: [1]
+currentValueList: [5]
+--- ---- ---
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 7
+currentIndexList: [1, 0]
+currentValueList: [5, 2]
+--- ---- ---
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 0
+remove last item in currentIndexList.
+currentIndexList: [1]
+currentValueList: [5]
+&&& &&&& &&&
+startIndex: -1
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 1
+remove last item in currentIndexList.
+currentIndexList: []
+currentValueList: []
+&&& &&&& &&&
+startIndex: 0
+--- Add value and index to currentIndexList and currentValueList. ---
+sum: 2
+currentIndexList: [0]
+currentValueList: [2]
+--- ---- ---
+&&& Remove last item in currentIndex and continue with 'lastIndex-1' &&&
+lastIndex in currentIndexList: 0
+remove last item in currentIndexList.
+currentIndexList: []
+currentValueList: []
+&&& &&&& &&&
+=== Problem solving is ended. ===
+
+%%% pizza type size: 3
+%%% pizza type list: [3, 2, 0]
+%%% total pizza slice: 16
