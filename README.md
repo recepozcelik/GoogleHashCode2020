@@ -1,4 +1,4 @@
-# GoogleHashCode2020_Practice Project
+# Java solution for Google Hash Code 2020 Practice Problem - More Pizza
 
 #### 
 * Tried to use Greedy approach algorithm.
